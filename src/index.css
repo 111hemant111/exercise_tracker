@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.heading {
+  text-align: center !important;
+  padding-bottom: 1rem;
+}
+
+.submit-button {
+  text-align: center;
+  padding-top: 20px;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+form {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.table-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* table {
+  border: solid 1px #DFE2E6;
+  border-radius: 5px !important;
+} */
+
+table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-style: hidden; /*hide standard table (collapsed) border*/
+  box-shadow: 0 0 0 1px #CCCCCC; /* this draws the table border  */ 
+}
+
+td {
+  border: 1px solid #ccc;
+}
+
+table th:first-child {
+  border-top-left-radius: 5px;
+}
+
+table th:last-child {
+  border-top-right-radius: 5px;
+} 
+/* 
+input {
+  border-color: -internal-light-dark(rgb(207, 212, 217), rgb(207, 212, 217)) !important;
+} */
